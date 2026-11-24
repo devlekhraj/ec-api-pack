@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace EcApi\Models;
 
-use App\Support\Eloquent\BaseModel;
+use EcApi\Support\Eloquent\BaseModel;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 
 final class LandingPageSetting extends BaseModel

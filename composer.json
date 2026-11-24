@@ -2,6 +2,10 @@
     "name": "devlekh/ec-api",
     "description": "EC API package for Chronicle.",
     "type": "library",
+    "require": {
+        "intervention/image": "^4.2",
+        "laravel/sanctum": "^4.5"
+    },
     "autoload": {
         "psr-4": {
             "EcApi\\": "src/"

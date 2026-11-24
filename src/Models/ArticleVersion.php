@@ -9,7 +9,7 @@ use EcApi\Models\Gallery;
 use EcApi\Models\GalleryUsage;
 use EcApi\Models\Category;
 use EcApi\Models\User;
-use App\Support\Eloquent\BaseModel;
+use EcApi\Support\Eloquent\BaseModel;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Database\Eloquent\Relations\HasMany;

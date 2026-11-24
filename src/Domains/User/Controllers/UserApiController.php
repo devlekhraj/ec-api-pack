@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Admin\Domains\User\Controllers;
+namespace EcApi\Domains\User\Controllers;
 
-use Admin\Domains\Post\Actions\PostListAction;
-use Admin\Domains\Post\Resources\PostResource;
-use Admin\Models\ArticleVersion;
-use Admin\Models\User;
+use EcApi\Domains\Post\Actions\PostListAction;
+use EcApi\Domains\Post\Resources\PostResource;
+use EcApi\Models\ArticleVersion;
+use EcApi\Models\User;
 use App\Http\Controllers\Controller;
 use Illuminate\Database\Eloquent\ModelNotFoundException;
 use Illuminate\Http\JsonResponse;
@@ -378,7 +378,7 @@ final class UserApiController extends Controller
             $includePassword = $request->boolean('include_password');
             try {
                 \Illuminate\Support\Facades\Mail::send(
-                    'admin::emails.password-changed',
+                    'ec-api::emails.password-changed',
                     [
                         'userName' => $user->name ?? $user->username ?? 'User',
                         'newPassword' => $includePassword ? $plainPassword : null,

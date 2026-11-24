@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Admin\Models;
+namespace EcApi\Models;
 
-use Admin\Models\Post;
-use Admin\Traits\HasSections;
-use Admin\Traits\HasAuditFields;
+use EcApi\Models\Post;
+use EcApi\Traits\HasSections;
+use EcApi\Traits\HasAuditFields;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;

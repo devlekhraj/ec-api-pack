@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Admin\Domains\Gallery\Controllers;
+namespace EcApi\Domains\Gallery\Controllers;
 
-use Admin\Models\Gallery;
-use Admin\Models\GalleryUsage;
+use EcApi\Models\Gallery;
+use EcApi\Models\GalleryUsage;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;

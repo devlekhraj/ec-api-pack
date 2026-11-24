@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Admin\Support;
+namespace EcApi\Support;
 
-use Admin\Models\ArticleVersion;
-use Admin\Models\Category;
+use EcApi\Models\ArticleVersion;
+use EcApi\Models\Category;
 use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Facades\Log;
 

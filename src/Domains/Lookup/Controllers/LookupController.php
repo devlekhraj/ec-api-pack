@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Admin\Domains\Lookup\Controllers;
+namespace EcApi\Domains\Lookup\Controllers;
 
-use Admin\Models\Category;
-use Admin\Models\Role;
-use Admin\Models\User;
+use EcApi\Models\Category;
+use EcApi\Models\Role;
+use EcApi\Models\User;
 use App\Http\Controllers\Controller;
 
 final class LookupController extends Controller

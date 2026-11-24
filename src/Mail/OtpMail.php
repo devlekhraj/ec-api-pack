@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Admin\Mail;
+namespace EcApi\Mail;
 
 use Illuminate\Bus\Queueable;
 use Illuminate\Mail\Mailable;
@@ -29,7 +29,7 @@ final class OtpMail extends Mailable
     public function content(): Content
     {
         return new Content(
-            view: 'admin::emails.otp',
+            view: 'ec-api::emails.otp',
             with: [
                 'otp'           => $this->otp,
                 'recipientName' => $this->recipientName,

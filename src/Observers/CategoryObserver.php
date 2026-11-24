@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Admin\Observers;
+namespace EcApi\Observers;
 
-use Admin\Models\Category;
-use Admin\Support\NextRevalidator;
+use EcApi\Models\Category;
+use EcApi\Support\NextRevalidator;
 use Illuminate\Support\Facades\Cache;
 
 final class CategoryObserver

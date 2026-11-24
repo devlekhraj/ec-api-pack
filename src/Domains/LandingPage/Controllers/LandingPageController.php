@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Admin\Domains\LandingPage\Controllers;
+namespace EcApi\Domains\LandingPage\Controllers;
 
-use Admin\Models\Article;
-use Admin\Models\ArticleVersion;
-use Admin\Models\LandingPageSetting;
-use Admin\Support\NextRevalidator;
+use EcApi\Models\Article;
+use EcApi\Models\ArticleVersion;
+use EcApi\Models\LandingPageSetting;
+use EcApi\Support\NextRevalidator;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;

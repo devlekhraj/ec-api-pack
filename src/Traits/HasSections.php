@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Admin\Traits;
+namespace EcApi\Traits;
 
-use Admin\Models\ContentSection;
+use EcApi\Models\ContentSection;
 use Illuminate\Database\Eloquent\Relations\MorphMany;
 
 trait HasSections

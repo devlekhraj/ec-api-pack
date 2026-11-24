@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Admin\Domains\Gallery\Resources;
+namespace EcApi\Domains\Gallery\Resources;
 
 use Illuminate\Http\Request;
 use Illuminate\Http\Resources\Json\JsonResource;
 
-/** @mixin \Admin\Models\Gallery */
+/** @mixin \EcApi\Models\Gallery */
 final class GalleryResource extends JsonResource
 {
     public function toArray(Request $request): array

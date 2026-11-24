@@ -2,19 +2,19 @@
 
 declare(strict_types=1);
 
-namespace Admin\Domains\Article\Controllers;
+namespace EcApi\Domains\Article\Controllers;
 
-use Admin\Models\Article;
-use Admin\Models\ArticleVersion;
-use Admin\Models\ArticleVersionSeo;
-use Admin\Models\ContentSection;
-use Admin\Domains\Article\Resources\EditorDetailResource;
-use Admin\Models\Category;
-use Admin\Domains\Shared\Helpers\CustomHelper;
-use Admin\Models\Gallery;
-use Admin\Models\GalleryUsage;
-use Admin\Support\NextRevalidator;
-use Admin\Models\User;
+use EcApi\Models\Article;
+use EcApi\Models\ArticleVersion;
+use EcApi\Models\ArticleVersionSeo;
+use EcApi\Models\ContentSection;
+use EcApi\Domains\Article\Resources\EditorDetailResource;
+use EcApi\Models\Category;
+use EcApi\Domains\Shared\Helpers\CustomHelper;
+use EcApi\Models\Gallery;
+use EcApi\Models\GalleryUsage;
+use EcApi\Support\NextRevalidator;
+use EcApi\Models\User;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;

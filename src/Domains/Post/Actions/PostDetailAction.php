@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Admin\Domains\Post\Actions;
+namespace EcApi\Domains\Post\Actions;
 
-use Admin\Models\Post;
+use EcApi\Models\Post;
 
 final class PostDetailAction
 {

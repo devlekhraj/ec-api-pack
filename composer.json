@@ -1,16 +1,16 @@
 {
-    "name": "devlekh/admin",
-    "description": "Local admin package for Admin Chronicle.",
+    "name": "devlekh/ec-api",
+    "description": "EC API package for Chronicle.",
     "type": "library",
     "autoload": {
         "psr-4": {
-            "Admin\\": "src/"
+            "EcApi\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Admin\\AdminServiceProvider"
+                "EcApi\\EcApiServiceProvider"
             ]
         }
     }

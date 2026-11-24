@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Admin\Domains\Shared\DTOs;
+namespace EcApi\Domains\Shared\DTOs;
 
 final class ActionResultDto
 {

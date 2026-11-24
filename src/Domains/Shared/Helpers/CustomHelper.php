@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Admin\Domains\Shared\Helpers;
+namespace EcApi\Domains\Shared\Helpers;
 
 class CustomHelper
 {

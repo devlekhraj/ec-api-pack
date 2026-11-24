@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Admin\Console\Commands;
+namespace EcApi\Console\Commands;
 
-use Admin\Models\Gallery;
-use Admin\Models\Post;
+use EcApi\Models\Gallery;
+use EcApi\Models\Post;
 use Illuminate\Console\Command;
 
 final class ListPostImageUrlsCommand extends Command

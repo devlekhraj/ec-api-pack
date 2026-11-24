@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Admin\Domains\Post\DTOs;
+namespace EcApi\Domains\Post\DTOs;
 
 final class PostUpdateData
 {

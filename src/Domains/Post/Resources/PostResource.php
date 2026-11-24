@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Admin\Domains\Post\Resources;
+namespace EcApi\Domains\Post\Resources;
 
 use App\Support\Formatters\ByteSizeFormatter;
 use App\Support\Formatters\FileDimensionFormatter;

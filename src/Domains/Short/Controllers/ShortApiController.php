@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Admin\Domains\Short\Controllers;
+namespace EcApi\Domains\Short\Controllers;
 
-use Admin\Models\Gallery;
-use Admin\Models\GalleryUsage;
-use Admin\Models\Short;
-use Admin\Support\NextRevalidator;
+use EcApi\Models\Gallery;
+use EcApi\Models\GalleryUsage;
+use EcApi\Models\Short;
+use EcApi\Support\NextRevalidator;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
@@ -94,7 +94,7 @@ final class ShortApiController extends Controller
 
             $userId = ! empty($validated['user_id'])
                 ? (int) $validated['user_id']
-                : ($request->user()?->id ?? \Admin\Models\User::query()->value('id'));
+                : ($request->user()?->id ?? \EcApi\Models\User::query()->value('id'));
 
             $publishedAt = ! empty($validated['published_at'])
                 ? $validated['published_at']
@@ -174,7 +174,7 @@ final class ShortApiController extends Controller
 
             $userId = ! empty($validated['user_id'])
                 ? (int) $validated['user_id']
-                : ($short->user_id ?: ($request->user()?->id ?? \Admin\Models\User::query()->value('id')));
+                : ($short->user_id ?: ($request->user()?->id ?? \EcApi\Models\User::query()->value('id')));
 
             $dataToUpdate = [
                 'title' => $validated['title'],

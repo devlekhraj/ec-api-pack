@@ -2,23 +2,23 @@
 
 declare(strict_types=1);
 
-namespace Admin\Domains\Post\Controllers;
+namespace EcApi\Domains\Post\Controllers;
 
-use Admin\Models\Category;
-use Admin\Domains\Post\Actions\PostCreateAction;
-use Admin\Domains\Post\Actions\PostDeleteAction;
-use Admin\Domains\Post\Actions\PostDetailAction;
-use Admin\Domains\Post\Actions\PostListAction;
-use Admin\Domains\Post\Actions\PostUpdateAction;
-use Admin\Domains\Post\DTOs\PostCreateData;
-use Admin\Domains\Post\DTOs\PostUpdateData;
-use Admin\Models\Post;
-use Admin\Domains\Post\Requests\StorePostRequest;
-use Admin\Domains\Post\Requests\UpdatePostRequest;
-use Admin\Domains\Post\Resources\PostDetailResource;
-use Admin\Domains\Post\Resources\PostResource;
+use EcApi\Models\Category;
+use EcApi\Domains\Post\Actions\PostCreateAction;
+use EcApi\Domains\Post\Actions\PostDeleteAction;
+use EcApi\Domains\Post\Actions\PostDetailAction;
+use EcApi\Domains\Post\Actions\PostListAction;
+use EcApi\Domains\Post\Actions\PostUpdateAction;
+use EcApi\Domains\Post\DTOs\PostCreateData;
+use EcApi\Domains\Post\DTOs\PostUpdateData;
+use EcApi\Models\Post;
+use EcApi\Domains\Post\Requests\StorePostRequest;
+use EcApi\Domains\Post\Requests\UpdatePostRequest;
+use EcApi\Domains\Post\Resources\PostDetailResource;
+use EcApi\Domains\Post\Resources\PostResource;
 use App\Http\Controllers\Controller;
-use Admin\Models\User;
+use EcApi\Models\User;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 use Illuminate\Http\UploadedFile;

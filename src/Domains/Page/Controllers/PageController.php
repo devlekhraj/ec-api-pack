@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Admin\Domains\Page\Controllers;
+namespace EcApi\Domains\Page\Controllers;
 
-use Admin\Models\Page;
+use EcApi\Models\Page;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use Illuminate\Pagination\LengthAwarePaginator;

@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Admin\Domains\Auth\Controllers;
+namespace EcApi\Domains\Auth\Controllers;
 
-use Admin\Mail\OtpMail;
-use Admin\Models\AdminPasswordReset;
-use Admin\Models\User;
+use EcApi\Mail\OtpMail;
+use EcApi\Models\AdminPasswordReset;
+use EcApi\Models\User;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;

@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Admin\Domains\Shared\Controllers;
+namespace EcApi\Domains\Shared\Controllers;
 
-use Admin\Models\Gallery;
-use Admin\Models\Post;
-use Admin\Models\User;
+use EcApi\Models\Gallery;
+use EcApi\Models\Post;
+use EcApi\Models\User;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\JsonResponse;
 

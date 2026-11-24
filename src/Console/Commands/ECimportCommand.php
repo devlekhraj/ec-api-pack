@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Admin\Console\Commands;
+namespace EcApi\Console\Commands;
 
 use Illuminate\Console\Command;
 use Throwable;

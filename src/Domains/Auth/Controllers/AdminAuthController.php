@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Admin\Domains\Auth\Controllers;
+namespace EcApi\Domains\Auth\Controllers;
 
-use Admin\Models\User;
+use EcApi\Models\User;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;

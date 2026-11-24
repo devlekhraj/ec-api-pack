@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Admin\Console\Commands;
+namespace EcApi\Console\Commands;
 
-use Admin\Models\GalleryUsage;
-use Admin\Models\Post;
+use EcApi\Models\GalleryUsage;
+use EcApi\Models\Post;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\DB;
 

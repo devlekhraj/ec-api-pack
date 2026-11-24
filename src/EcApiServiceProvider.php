@@ -2,28 +2,28 @@
 
 declare(strict_types=1);
 
-namespace Admin;
+namespace EcApi;
 
-use Admin\Models\Article;
-use Admin\Models\ArticleVersion;
-use Admin\Models\Category;
-use Admin\Models\Short;
-use Admin\Console\Commands\ECimportCommand;
-use Admin\Console\Commands\FixSectionImageUrlsCommand;
-use Admin\Console\Commands\ImportPostFeaturedImagesCommand;
-use Admin\Console\Commands\ImportPostsToArticlesCommand;
-use Admin\Console\Commands\ImportWpFeaturedImagesCommand;
-use Admin\Console\Commands\ListPostImageUrlsCommand;
-use Admin\Console\Commands\PostPrimaryBannerCommand;
-use Admin\Console\Commands\SyncArticleVersionMetaImagesCommand;
-use Admin\Observers\ArticleObserver;
-use Admin\Observers\ArticleVersionObserver;
-use Admin\Observers\CategoryObserver;
-use Admin\Observers\ShortObserver;
+use EcApi\Models\Article;
+use EcApi\Models\ArticleVersion;
+use EcApi\Models\Category;
+use EcApi\Models\Short;
+use EcApi\Console\Commands\ECimportCommand;
+use EcApi\Console\Commands\FixSectionImageUrlsCommand;
+use EcApi\Console\Commands\ImportPostFeaturedImagesCommand;
+use EcApi\Console\Commands\ImportPostsToArticlesCommand;
+use EcApi\Console\Commands\ImportWpFeaturedImagesCommand;
+use EcApi\Console\Commands\ListPostImageUrlsCommand;
+use EcApi\Console\Commands\PostPrimaryBannerCommand;
+use EcApi\Console\Commands\SyncArticleVersionMetaImagesCommand;
+use EcApi\Observers\ArticleObserver;
+use EcApi\Observers\ArticleVersionObserver;
+use EcApi\Observers\CategoryObserver;
+use EcApi\Observers\ShortObserver;
 use Illuminate\Database\Eloquent\Relations\Relation;
 use Illuminate\Support\ServiceProvider;
 
-final class AdminServiceProvider extends ServiceProvider
+final class EcApiServiceProvider extends ServiceProvider
 {
     public function register(): void
     {
@@ -35,8 +35,8 @@ final class AdminServiceProvider extends ServiceProvider
         Relation::morphMap([
             'article_versions' => ArticleVersion::class,
             'shorts' => Short::class,
-            'live_updates' => \Admin\Models\LiveUpdate::class,
-            'content_sections' => \Admin\Models\ContentSection::class,
+            'live_updates' => \EcApi\Models\LiveUpdate::class,
+            'content_sections' => \EcApi\Models\ContentSection::class,
         ]);
 
         $this->commands([

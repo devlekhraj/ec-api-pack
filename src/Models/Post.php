@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Admin\Models;
+namespace EcApi\Models;
 
-use Admin\Models\Category;
-use Admin\Models\Gallery;
-use Admin\Models\GalleryUsage;
-use Admin\Models\User;
+use EcApi\Models\Category;
+use EcApi\Models\Gallery;
+use EcApi\Models\GalleryUsage;
+use EcApi\Models\User;
 use App\Support\Eloquent\BaseModel;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Database\Eloquent\Relations\HasOne;

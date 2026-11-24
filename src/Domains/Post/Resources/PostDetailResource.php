@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Admin\Domains\Post\Resources;
+namespace EcApi\Domains\Post\Resources;
 
 final class PostDetailResource extends PostResource
 {

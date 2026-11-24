@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Admin\Console\Commands;
+namespace EcApi\Console\Commands;
 
-use Admin\Domains\Gallery\GalleryUploadService;
-use Admin\Models\Gallery;
+use EcApi\Domains\Gallery\GalleryUploadService;
+use EcApi\Models\Gallery;
 use Illuminate\Console\Command;
 use Illuminate\Http\UploadedFile;
 use Illuminate\Support\Facades\DB;

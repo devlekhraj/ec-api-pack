@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Admin\Models;
+namespace EcApi\Models;
 
-use Admin\Models\Category;
-use App\Support\Eloquent\BaseModel;
+use EcApi\Models\Category;
+use EcApi\Support\Eloquent\BaseModel;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 
 final class ArticleVersionCategory extends BaseModel

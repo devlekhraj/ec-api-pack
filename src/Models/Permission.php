@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Admin\Models;
+namespace EcApi\Models;
 
-use Admin\Models\Role;
+use EcApi\Models\Role;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 

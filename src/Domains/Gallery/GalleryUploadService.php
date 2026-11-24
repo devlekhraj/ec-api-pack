@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Admin\Domains\Gallery;
+namespace EcApi\Domains\Gallery;
 
-use Admin\Models\Gallery;
+use EcApi\Models\Gallery;
 use Illuminate\Contracts\Filesystem\Filesystem;
 use Illuminate\Http\UploadedFile;
 use Illuminate\Support\Facades\Log;

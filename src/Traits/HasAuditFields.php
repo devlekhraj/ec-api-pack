@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Admin\Traits;
+namespace EcApi\Traits;
 
 use Illuminate\Support\Facades\Auth;
 

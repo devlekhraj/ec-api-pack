@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-use Admin\Domains\Article\Controllers\ArticleController;
-use Admin\Domains\Article\Controllers\ArticleListController;
-use Admin\Domains\Article\Controllers\ArticleRevisionController;
-use Admin\Domains\Article\Controllers\ArticleSeoController;
-use Admin\Domains\Article\Controllers\EditorialQueueController;
-use Admin\Domains\Article\Controllers\LiveUpdateController;
-use Admin\Domains\LandingPage\Controllers\LandingPageController;
+use EcApi\Domains\Article\Controllers\ArticleController;
+use EcApi\Domains\Article\Controllers\ArticleListController;
+use EcApi\Domains\Article\Controllers\ArticleRevisionController;
+use EcApi\Domains\Article\Controllers\ArticleSeoController;
+use EcApi\Domains\Article\Controllers\EditorialQueueController;
+use EcApi\Domains\Article\Controllers\LiveUpdateController;
+use EcApi\Domains\LandingPage\Controllers\LandingPageController;
 use Illuminate\Support\Facades\Route;
 
 Route::prefix('api/admin')->middleware('auth:sanctum')->group(function () {

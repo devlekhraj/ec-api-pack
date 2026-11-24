@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Admin\Console\Commands;
+namespace EcApi\Console\Commands;
 
-use Admin\Models\Article;
-use Admin\Models\ArticleVersion;
-use Admin\Models\ArticleVersionSeo;
-use Admin\Models\ContentSection;
+use EcApi\Models\Article;
+use EcApi\Models\ArticleVersion;
+use EcApi\Models\ArticleVersionSeo;
+use EcApi\Models\ContentSection;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Log;

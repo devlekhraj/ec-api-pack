@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Admin\Domains\Article\Resources;
+namespace EcApi\Domains\Article\Resources;
 
-use Admin\Domains\Shared\Helpers\CustomHelper;
-use Admin\Models\ArticleVersion;
-use Admin\Models\ContentSection;
-use Admin\Models\GalleryUsage;
+use EcApi\Domains\Shared\Helpers\CustomHelper;
+use EcApi\Models\ArticleVersion;
+use EcApi\Models\ContentSection;
+use EcApi\Models\GalleryUsage;
 use Illuminate\Http\Request;
 use Illuminate\Http\Resources\Json\JsonResource;
 

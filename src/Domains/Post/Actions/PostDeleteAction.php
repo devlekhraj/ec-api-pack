@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Admin\Domains\Post\Actions;
+namespace EcApi\Domains\Post\Actions;
 
-use Admin\Models\Post;
-use Admin\Models\GalleryUsage;
+use EcApi\Models\Post;
+use EcApi\Models\GalleryUsage;
 
 final class PostDeleteAction
 {

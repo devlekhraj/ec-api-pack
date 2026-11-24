@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Admin\Observers;
+namespace EcApi\Observers;
 
-use Admin\Models\ArticleVersion;
-use Admin\Support\NextRevalidator;
+use EcApi\Models\ArticleVersion;
+use EcApi\Support\NextRevalidator;
 
 final class ArticleVersionObserver
 {

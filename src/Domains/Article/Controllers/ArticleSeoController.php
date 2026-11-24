@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Admin\Domains\Article\Controllers;
+namespace EcApi\Domains\Article\Controllers;
 
-use Admin\Models\AiRequest;
-use Admin\Models\ArticleVersion;
-use Admin\Models\ArticleVersionSeo;
+use EcApi\Models\AiRequest;
+use EcApi\Models\ArticleVersion;
+use EcApi\Models\ArticleVersionSeo;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;

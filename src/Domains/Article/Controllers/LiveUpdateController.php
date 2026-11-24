@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace Admin\Domains\Article\Controllers;
+namespace EcApi\Domains\Article\Controllers;
 
-use Admin\Domains\Article\Resources\EditorDetailResource;
-use Admin\Models\ArticleVersion;
-use Admin\Models\ContentSection;
-use Admin\Models\Gallery;
-use Admin\Models\GalleryUsage;
-use Admin\Models\LiveUpdate;
-use Admin\Support\NextRevalidator;
+use EcApi\Domains\Article\Resources\EditorDetailResource;
+use EcApi\Models\ArticleVersion;
+use EcApi\Models\ContentSection;
+use EcApi\Models\Gallery;
+use EcApi\Models\GalleryUsage;
+use EcApi\Models\LiveUpdate;
+use EcApi\Support\NextRevalidator;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;

@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Admin\Models;
+namespace EcApi\Models;
 
-use Admin\Models\Permission;
-use Admin\Models\User;
+use EcApi\Models\Permission;
+use EcApi\Models\User;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 

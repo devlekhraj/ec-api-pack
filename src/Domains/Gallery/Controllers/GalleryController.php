@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Admin\Domains\Gallery\Controllers;
+namespace EcApi\Domains\Gallery\Controllers;
 
-use Admin\Domains\Gallery\GalleryUploadService;
-use Admin\Domains\Gallery\Resources\GalleryResource;
-use Admin\Models\Gallery;
-use Admin\Models\GalleryUsage;
+use EcApi\Domains\Gallery\GalleryUploadService;
+use EcApi\Domains\Gallery\Resources\GalleryResource;
+use EcApi\Models\Gallery;
+use EcApi\Models\GalleryUsage;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;

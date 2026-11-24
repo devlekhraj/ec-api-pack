@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Admin\Domains\Category\Controllers;
+namespace EcApi\Domains\Category\Controllers;
 
-use Admin\Models\Category;
-use Admin\Models\ArticleVersion;
-use Admin\Models\Post;
-use Admin\Support\NextRevalidator;
-use Admin\Models\User;
+use EcApi\Models\Category;
+use EcApi\Models\ArticleVersion;
+use EcApi\Models\Post;
+use EcApi\Support\NextRevalidator;
+use EcApi\Models\User;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;

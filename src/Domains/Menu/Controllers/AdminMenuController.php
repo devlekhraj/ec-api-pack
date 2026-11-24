@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace Admin\Domains\Menu\Controllers;
+namespace EcApi\Domains\Menu\Controllers;
 
-use Admin\Models\Article;
-use Admin\Models\ArticleVersion;
-use Admin\Models\Category;
-use Admin\Models\Comment;
-use Admin\Models\Gallery;
-use Admin\Models\Short;
-use Admin\Models\User;
+use EcApi\Models\Article;
+use EcApi\Models\ArticleVersion;
+use EcApi\Models\Category;
+use EcApi\Models\Comment;
+use EcApi\Models\Gallery;
+use EcApi\Models\Short;
+use EcApi\Models\User;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Admin\Models;
+namespace EcApi\Models;
 
-use App\Support\Eloquent\BaseModel;
+use EcApi\Support\Eloquent\BaseModel;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\Relations\MorphMany;
 use Illuminate\Database\Eloquent\Relations\MorphTo;

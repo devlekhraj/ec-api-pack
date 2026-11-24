@@ -2,22 +2,22 @@
 
 declare(strict_types=1);
 
-use Admin\Domains\Auth\Controllers\AdminAuthController;
-use Admin\Domains\Auth\Controllers\PasswordResetController;
-use Admin\Domains\Category\Controllers\CategoryApiController;
-use Admin\Domains\Gallery\Controllers\GalleryController;
-use Admin\Domains\Gallery\Controllers\GalleryUsageController;
-use Admin\Domains\Gallery\Controllers\ImageController;
-use Admin\Domains\Lookup\Controllers\LookupController;
-use Admin\Domains\Menu\Controllers\AdminMenuController;
-use Admin\Domains\Page\Controllers\PageController;
-use Admin\Domains\Post\Controllers\PostController;
-use Admin\Domains\Role\Controllers\PermissionApiController;
-use Admin\Domains\Role\Controllers\RoleApiController;
-use Admin\Domains\Role\Controllers\RolePermissionApiController;
-use Admin\Domains\Shared\Controllers\OverviewController;
-use Admin\Domains\Short\Controllers\ShortApiController;
-use Admin\Domains\User\Controllers\UserApiController;
+use EcApi\Domains\Auth\Controllers\AdminAuthController;
+use EcApi\Domains\Auth\Controllers\PasswordResetController;
+use EcApi\Domains\Category\Controllers\CategoryApiController;
+use EcApi\Domains\Gallery\Controllers\GalleryController;
+use EcApi\Domains\Gallery\Controllers\GalleryUsageController;
+use EcApi\Domains\Gallery\Controllers\ImageController;
+use EcApi\Domains\Lookup\Controllers\LookupController;
+use EcApi\Domains\Menu\Controllers\AdminMenuController;
+use EcApi\Domains\Page\Controllers\PageController;
+use EcApi\Domains\Post\Controllers\PostController;
+use EcApi\Domains\Role\Controllers\PermissionApiController;
+use EcApi\Domains\Role\Controllers\RoleApiController;
+use EcApi\Domains\Role\Controllers\RolePermissionApiController;
+use EcApi\Domains\Shared\Controllers\OverviewController;
+use EcApi\Domains\Short\Controllers\ShortApiController;
+use EcApi\Domains\User\Controllers\UserApiController;
 use Illuminate\Support\Facades\Route;
 
 

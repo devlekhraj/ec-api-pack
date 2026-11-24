@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Admin\Domains\Post\Actions;
+namespace EcApi\Domains\Post\Actions;
 
-use Admin\Models\Category;
-use Admin\Domains\Post\DTOs\PostCreateData;
-use Admin\Models\Post;
+use EcApi\Models\Category;
+use EcApi\Domains\Post\DTOs\PostCreateData;
+use EcApi\Models\Post;
 
 final class PostCreateAction
 {

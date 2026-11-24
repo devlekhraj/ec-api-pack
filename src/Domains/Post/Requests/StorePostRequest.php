@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Admin\Domains\Post\Requests;
+namespace EcApi\Domains\Post\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 

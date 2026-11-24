@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Admin\Domains\Post\Actions;
+namespace EcApi\Domains\Post\Actions;
 
-use Admin\Domains\Post\DTOs\PostUpdateData;
-use Admin\Models\Post;
+use EcApi\Domains\Post\DTOs\PostUpdateData;
+use EcApi\Models\Post;
 
 final class PostUpdateAction
 {

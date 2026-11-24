@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Admin\Models;
+namespace EcApi\Models;
 
-use Admin\Models\AiRequest;
-use Admin\Models\Gallery;
-use Admin\Models\GalleryUsage;
-use Admin\Models\Category;
-use Admin\Models\User;
-use App\Support\Eloquent\BaseModel;
+use EcApi\Models\AiRequest;
+use EcApi\Models\Gallery;
+use EcApi\Models\GalleryUsage;
+use EcApi\Models\Category;
+use EcApi\Models\User;
+use EcApi\Support\Eloquent\BaseModel;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Database\Eloquent\Relations\HasMany;

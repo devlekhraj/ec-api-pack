@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Admin\Observers;
+namespace EcApi\Observers;
 
-use Admin\Models\Short;
-use Admin\Support\NextRevalidator;
+use EcApi\Models\Short;
+use EcApi\Support\NextRevalidator;
 
 final class ShortObserver
 {

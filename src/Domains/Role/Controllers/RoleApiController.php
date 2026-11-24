@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Admin\Domains\Role\Controllers;
+namespace EcApi\Domains\Role\Controllers;
 
-use Admin\Models\Role;
+use EcApi\Models\Role;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 

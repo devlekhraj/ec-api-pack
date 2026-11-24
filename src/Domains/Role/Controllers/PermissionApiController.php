@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Admin\Domains\Role\Controllers;
+namespace EcApi\Domains\Role\Controllers;
 
-use Admin\Models\Permission;
+use EcApi\Models\Permission;
 use App\Http\Controllers\Controller;
 
 final class PermissionApiController extends Controller

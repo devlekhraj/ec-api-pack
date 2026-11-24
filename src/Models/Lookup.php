@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Admin\Models;
+namespace EcApi\Models;
 
-use Admin\Models\User;
-use Admin\Traits\HasAuditFields;
+use EcApi\Models\User;
+use EcApi\Traits\HasAuditFields;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 

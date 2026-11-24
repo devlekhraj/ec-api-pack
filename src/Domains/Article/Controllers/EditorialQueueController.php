@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Admin\Domains\Article\Controllers;
+namespace EcApi\Domains\Article\Controllers;
 
-use Admin\Models\Article;
-use Admin\Models\ArticleVersion;
+use EcApi\Models\Article;
+use EcApi\Models\ArticleVersion;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
